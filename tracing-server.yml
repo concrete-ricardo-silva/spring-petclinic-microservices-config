@@ -13,8 +13,9 @@ eureka:
 spring:
   profiles: docker
 eureka:
-    instance:
-        prefer-ip-address: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
