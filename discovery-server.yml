@@ -2,7 +2,8 @@
   port: 8761
 
 eureka:
-  instance:
+    instance:
+    prefer-ip-address: true
     hostname: localhost
   # standalone mode
   client:
